@@ -2,8 +2,7 @@ from rembg import remove
 from PIL import Image
 import os
 from alive_progress import alive_bar
-#folds = ['french_bulldog','german_shepherd','golden_retriever','poodle','yorkshire_terrier']
-folds = ['french_bulldog','german_shepherd']
+folds = ['french_bulldog','german_shepherd','golden_retriever','poodle','yorkshire_terrier']
 for each in folds:
     print(f"working on {each} folder")
     folder_path= f"./dog_v1/{each}"

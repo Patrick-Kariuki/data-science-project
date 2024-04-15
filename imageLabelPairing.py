@@ -11,7 +11,7 @@ def pair_images_with_labels(data_dir):
     ##########
     if(label[-2:]!='_r'):
       continue
-      label=label[:-2]
+    label=label[:-2]
     ##########
     for filename in files:
       # Check for image extensions (adjust as needed)

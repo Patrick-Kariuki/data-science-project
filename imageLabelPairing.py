@@ -8,7 +8,7 @@ def pair_images_with_labels(data_dir):
       continue
     # Extract label from folder name
     label = os.path.basename(root)
-    ##########
+    ########## only does files ending with _r
     if(label[-2:]!='_r'):
       continue
     label=label[:-2]

@@ -7,9 +7,6 @@ with open(file_path, "r") as f:
     data = json.load(f)
 
 
-import torch
-import torch.nn as nn
-
 # Function to load and preprocess an image
 def load_and_preprocess_image(image_path, target_size):
   # Load image using OpenCV or Pillow (replace with your preferred library)
